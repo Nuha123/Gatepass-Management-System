@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="GATEPASS REQUEST"
+                android:textSize="25sp"
+                android:textColor="#8B572A"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/nametitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="Name"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/nametitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Student Name"/>
+
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/regtitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="RegNum"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/rnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/regtitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="Student Registeration Number"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/yrtitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Year"/>
+
+                <TextView
+                    android:id="@+id/yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/yrtitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:text="Student Year"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/reasontitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="Reason"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/reasontitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="Reason"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/outdatetitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="Outdate"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/outdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/outdatetitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="Out Date"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/outtimetitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="Outtime"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/outtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/outtimetitle"
+                    android:paddingTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="Out Time"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/indatetitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:text="Indate"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/indate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/indatetitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="In Date"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/intimetitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Intime"/>
+
+                <TextView
+                    android:id="@+id/intime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/intimetitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="In Time"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="#8B572A"
+                android:textColor="#fff"
+                android:id="@+id/accept"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"
+                android:text="Accept"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

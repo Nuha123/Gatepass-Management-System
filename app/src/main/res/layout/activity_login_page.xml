@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher"/>
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp"
+            android:background="#c8c1c1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="25dp"
+                android:fontFamily="sans-serif-light"
+                android:inputType="textEmailAddress"
+                android:background="@null"
+                android:hint="Email"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp"
+            android:background="#c8c1c1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/ic_lock_outline_black_24dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="25dp"
+                android:fontFamily="sans-serif-light"
+                android:background="@null"
+                android:inputType="textPassword|textNoSuggestions"
+                android:hint="Password"/>
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp"
+            android:background="#c8c1c1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="#8B572A"
+            android:textColor="#fff"
+            android:id="@+id/login"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"
+            android:text="Login"/>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:layout_above="@+id/button_bottom"
+            android:layout_height="wrap_content"
+            android:text="No Account? Register as - "/>
+
+    <View
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="0dp"
+        android:background="#c8c1c1"
+        android:layout_above="@+id/button_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:id="@+id/button_bottom"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/warden"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:text="Warden"/>
+
+        </RelativeLayout>
+
+        <View
+            android:background="#c8c1c1"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/parent"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:text="Parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:text="Parent"/>
+        </RelativeLayout>
+        <View
+            android:background="#c8c1c1"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:id="@+id/student"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000"
+                android:text="STUDENT"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

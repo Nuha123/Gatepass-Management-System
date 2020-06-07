@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/date"
+                android:text="Date"
+                android:gravity="center"
+                android:textSize="15sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/nametitle"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:text="Outdate"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/outdate"
+                        android:layout_toRightOf="@+id/nametitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:background="@null"
+                        android:text="Out Date"/>
+
+
+                </RelativeLayout>
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#c8c1c1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/emailtitle"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:text="Outtime"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/outtime"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="15dp"
+                        android:layout_toRightOf="@+id/emailtitle"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:background="@null"
+                        android:inputType="textEmailAddress"
+                        android:text="Out Time"/>
+
+                </RelativeLayout>
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#c8c1c1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/gendertitle"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:text="Indate"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/indate"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="15dp"
+                        android:layout_toRightOf="@+id/gendertitle"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:background="@null"
+                        android:inputType="text"
+                        android:text="In Date"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#c8c1c1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/yrtitle"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@null"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:text="Intime"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/intime"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="15dp"
+                        android:layout_toRightOf="@+id/yrtitle"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:background="@null"
+                        android:inputType="text"
+                        android:text="In Time"/>
+
+
+                </RelativeLayout>
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#c8c1c1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/numbertitle"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="15dp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif-light"
+                        android:inputType="textPersonName"
+                        android:background="@null"
+                        android:text="Reason"/>
+
+                    <TextView
+                        android:id="@+id/reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="15dp"
+                        android:layout_toRightOf="@+id/numbertitle"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:background="@null"
+                        android:inputType="text"
+                        android:text="Reason"/>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp"
+            android:background="#ccc7c7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

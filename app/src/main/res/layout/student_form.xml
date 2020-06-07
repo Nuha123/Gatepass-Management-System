@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Please Fill the Form For Issuing Gatepass"
+                android:textSize="17sp"
+                android:textColor="#8B572A"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:hint="Name"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/rnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:hint="Registeration number"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/yr"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:hint="Year"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <Spinner
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="17dp"
+                    android:entries="@array/warden_arrays"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:id="@+id/warden"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/dropdown"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:hint="Enter Reason for Issuing Gatepass"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/outdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="date"
+                    android:hint="Out Date"
+                    android:datePickerMode="calendar"
+                    />
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/outtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="time"
+                    android:hint="Out Time"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/indate"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="date"
+
+                    android:hint="In Date"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <EditText
+                    android:id="@+id/intime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="time"
+                    android:hint="In Time"/>
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="#8B572A"
+                android:layout_marginBottom="40dp"
+                android:textColor="#fff"
+                android:id="@+id/sendform"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-light"
+                android:textAllCaps="true"
+                android:text="Send Form"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

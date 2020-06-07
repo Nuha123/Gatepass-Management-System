@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="My Account"
+                android:textSize="25sp"
+                android:textColor="#8B572A"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/nametitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Name"/>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="25dp"
+                    android:layout_toRightOf="@+id/nametitle"
+                    android:paddingTop="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Name"/>
+
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/emailtitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="E-Mail"/>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/emailtitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="textEmailAddress"
+                    android:text="Email"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/rnumtitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="RegNum"/>
+
+                <TextView
+                    android:id="@+id/stdrnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/rnumtitle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:text="Registeration Number"/>
+
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/gendertitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Gender"/>
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:layout_toRightOf="@+id/gendertitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:text="Gender"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/numbertitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Number"/>
+
+                <EditText
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/numbertitle"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:inputType="phone"
+                    android:hint="Phone Number"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/yrtitle"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-light"
+                    android:inputType="textPersonName"
+                    android:background="@null"
+                    android:text="Year"/>
+
+
+                <Spinner
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingLeft="17dp"
+                    android:layout_toRightOf="@+id/yrtitle"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@null"
+                    android:id="@+id/yr"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_toRightOf="@+id/yr"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/dropdown"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+            <View
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="0dp"
+                android:background="#c8c1c1"
+                android:layout_above="@+id/button_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"/>
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:id="@+id/button_bottom"
+                android:layout_height="50dp"
+                android:layout_width="fill_parent">
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/savechanges"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:text="SAVE CHANGES"/>
+
+                </RelativeLayout>
+
+                <View
+                    android:background="#c8c1c1"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"/>
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/changepassword"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
+                        android:textAllCaps="true"
+                        android:textColor="#000"
+                        android:text="CHANGE PASSWORD"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
